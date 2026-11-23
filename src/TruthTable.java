@@ -1,28 +1,28 @@
-public class TruthTable {
+public class Main {
     public static void main(String[] args) {
         int x = 5;
-        system.out.println("x > 5: " + (x > 5)); //false
-        system.out.println("x >= 5: " + (x >= 5)); //true
-        system.out.println("x == 5: " + (x == 5)); //true        
-        system.out.println("x != 5: " + (x != 5)); //false
+        System.out.println("x > 5: " + (x > 5));
+        System.out.println("x >= 5: " + (x >= 5));
+        System.out.println("x == 5: " + (x == 5));
+        System.out.println("x != 5: " + (x != 5));
 
         int y = 4;
-        system.out.println("y > 5: " + (y > 5)); //false
-        system.out.println("y >= 5: " + (y >= 5)); //true
-        system.out.println("y == 5: " + (y == 5)); //true        
-        system.out.println("y != 5: " + (y != 5)); //false
+        System.out.println("y > 5: " + (y > 5));
+        System.out.println("y >= 5: " + (y >= 5)); 
+        System.out.println("y == 5: " + (y == 5));   
+        System.out.println("y != 5: " + (y != 5));
 
         int z = 6;
-        system.out.println("z > 5: " + (z > 5)); //false
-        system.out.println("z >= 5: " + (z >= 5)); //true
-        system.out.println("z == 5: " + (z == 5)); //true        
-        system.out.println("z != 5: " + (z != 5)); //false
+        System.out.println("z > 5: " + (z > 5));
+        System.out.println("z >= 5: " + (z >= 5));
+        System.out.println("z == 5: " + (z == 5)); 
+        System.out.println("z != 5: " + (z != 5));
 
         //Even number check
         boolean isEven = x % 2 == 0;
         boolean isPositive = x > 0;
-        system.out.println("Is this number even " + isEven);
-        system.out.println("Is this number possitive " + isPossitive);
+        System.out.println("Is this number even " + isEven);
+        System.out.println("Is this number possitive " + isPositive);
 
         // doubles 
         double gpa = 3.5;
